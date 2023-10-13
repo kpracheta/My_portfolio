@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 40px;
+    width:auto;
+    background-color: rgb(174, 138, 166);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+#logo{
+    color: rgb(214, 214, 214);
+    float: left;
+    margin-left: 40px;
+    font-size: large;
+    font-weight: 700;
+}
+#about{
+    font-size: medium;
+    display: inline;
+    justify-content: center;
+    margin-right: 50px; 
+    text-decoration: none;
+    color: rgb(30, 6, 30);
+    font-weight: 500;
+}
+.nav{
+    display: inline;
+    justify-content: center;
+    margin-right: 50px; 
+    text-decoration: none;
+    color: rgb(30, 6, 30);
+}
+body{
+    background-color: rgb(30, 6, 30);
+}

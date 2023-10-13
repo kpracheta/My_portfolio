@@ -1,0 +1,41 @@
+body {
+	height: 100vh;
+	background: rgb(30, 6, 30);
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+}
+.loader {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+.loader div {
+	position: absolute;
+	border: 15px solid rgb(174, 138, 166);
+	opacity: 1;
+	border-radius: 50%;
+	background: rgb(30, 6, 30);
+	animation: animate 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+	filter: drop-shadow(0 0 5px rgb(174, 138, 166)) drop-shadow(0 0 23px rgb(174, 138, 166));
+}
+.loader div:nth-child(2) {
+	animation-delay: -0.5s;
+}
+@keyframes animate {
+	0% {
+		top: 100px;
+		left: 100px;
+		width: 0;
+		height: 0;
+		opacity: 1;
+	}
+	100% {
+		top: 0px;
+		left: 0px;
+		width: 200px;
+		height: 200px;
+		opacity: 0;
+	}
+}
