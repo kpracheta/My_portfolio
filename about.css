@@ -5,13 +5,13 @@
 nav{
     height: 40px;
     width:auto;
-    background-color: rgb(174, 138, 166);
+    background-color: #b891b8;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 40px;
 }
 #logo{
-    color: rgb(214, 214, 214);
+    color: #e3cce0;
     float: left;
     margin-left: 40px;
     font-size: large;
@@ -23,7 +23,7 @@ nav{
     justify-content: center;
     margin-right: 50px; 
     text-decoration: none;
-    color: rgb(30, 6, 30);
+    color: #1a051a;
     font-weight: 500;
 }
 .nav{
@@ -31,8 +31,37 @@ nav{
     justify-content: center;
     margin-right: 50px; 
     text-decoration: none;
-    color: rgb(30, 6, 30);
+    color: #1a051a;
 }
 body{
-    background-color: rgb(30, 6, 30);
+    background-color: #1a051a;
+}
+.transition-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: 101;
+    background-color: #e3cce0;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+}
+.transition-1.is-active{
+    opacity: 1;
+    pointer-events: all;
+}
+.transition-2{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    bottom:0;
+    z-index: 101;
+    background-color: #e3cce0;
+    transition: 0.5s ease-out;
+}
+.transition-2.is-active{
+    left: 0px;
 }

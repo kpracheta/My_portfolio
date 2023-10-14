@@ -1,6 +1,6 @@
 body {
 	height: 100vh;
-	background: rgb(30, 6, 30);
+	background: #1a051a;
 	display: flex;
 	justify-content: center; 
 	align-items: center;
@@ -13,12 +13,12 @@ body {
 }
 .loader div {
 	position: absolute;
-	border: 15px solid rgb(174, 138, 166);
+	border: 15px solid #b891b8;
 	opacity: 1;
 	border-radius: 50%;
-	background: rgb(30, 6, 30);
+	background: #1a051a;
 	animation: animate 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
-	filter: drop-shadow(0 0 5px rgb(174, 138, 166)) drop-shadow(0 0 23px rgb(174, 138, 166));
+	filter: drop-shadow(0 0 5px #b891b8) drop-shadow(0 0 23px #b891b8);
 }
 .loader div:nth-child(2) {
 	animation-delay: -0.5s;
