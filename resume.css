@@ -9,6 +9,9 @@ nav{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 40px;
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 #logo{
     color: #e3cce0;
@@ -42,6 +45,7 @@ body{
     padding: 50px;
     font-size: 50px;
     text-decoration: underline;
+    margin-top: 50px;
 }
 .container{
     font-size: 40px;

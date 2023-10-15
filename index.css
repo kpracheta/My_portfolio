@@ -10,6 +10,9 @@ nav{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 40px;
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 #logo{
     color: #e3cce0;
@@ -49,7 +52,7 @@ body{
 #container-left{
     width: 700px;
     /*margin-left: 50px;*/
-    margin-top: 100px;
+    margin-top: 150px;
 }
 #container-left button{
     margin-top: 30px;
@@ -61,7 +64,7 @@ body{
   overflow: hidden;
   background-color: #b891b8;
   float: right;
-    margin-top: 100px;
+    margin-top: 150px;
     /*margin-right: 50px;*/
     margin-left: 100px;
 }
